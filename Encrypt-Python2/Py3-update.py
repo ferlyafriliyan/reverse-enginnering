@@ -39,7 +39,7 @@ logo = '''
 \x1b[1;35m---------------------------------------
 \x1b[1;31m• \x1b[1;33mUpdate Py3 \x1b[1;31m: \x1b[1;33mFerly Afriliyan
 \x1b[1;31m•\x1b[1;33m Decrypt  \x1b[1;31m  :\x1b[1;33m Ferly Afriliyan
-\x1b[1;31m• \x1b[1;33mGithub \x1b[1;31m    : \x1b[1;33mgithub.com/Kang-Berontak
+\x1b[1;31m• \x1b[1;33mGithub \x1b[1;31m    : \x1b[1;33mKang-Berontak/Encrypt-Python2
 \x1b[1;35m---------------------------------------
 
 \x1b[1;35m[ \x1b[1;37mEncrypt python3 \x1b[1;35m]      '''

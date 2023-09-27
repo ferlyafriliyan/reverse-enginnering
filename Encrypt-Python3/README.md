@@ -9,7 +9,7 @@ Script Untuk Encrypt Python2
 
 # FITUR
 
-<p><img src="Screenshot_20220527-073558.png" /></p>
+<p><img src="https://github.com/Kang-Berontak/Encrypt-Python2/blob/main/Screenshot_20220527-073558.png?raw=true" /></p>
 
 # INSTALL
 ```python

@@ -14,15 +14,23 @@ Script Untuk Encrypt Python2 - Python3
 # INSTALL
 ```python
 pkg update && pkg upgrade
-pkg install python2
+pkg install python2 && pkg install python3 -y
 pkg install git
 pip install requests mechanize
 pip install bs4
-git clone https://github.com/Kang-Berontak/Encrypt-Python2
-cd Encrypt-Python2
-python2 Enc.py
+git clone https://github.com/ferlyafriliyan/reverse-enginnering
+cd Encrypt-Python3
 ```
 
+# *Encrypt Python3 :*
+```
+python Py3-update.py
+```
+
+# *Encrypt Python2 :*
+```
+python2 Py2-reverse.py
+```
 # Note
 
 `Makasih Dah Pake SC Gw`

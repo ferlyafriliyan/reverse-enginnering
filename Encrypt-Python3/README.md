@@ -33,4 +33,4 @@ python2 Enc.py
 
 - [ ] Hasil Di Menu Nomer 7
 
-<p><img src="Screenshot_20220527-074450.png" /></p>
+<p><img src="https://github.com/ferlyafriliyan/reverse-enginnering/blob/main/Encrypt-Python3/assets/Screenshot_20230928_031738_Termux.jpg?raw=true" /></p>

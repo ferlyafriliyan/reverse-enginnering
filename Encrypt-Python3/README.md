@@ -1,7 +1,7 @@
 ### *Deobfuscate while Updating Python2 Code to Python3*
 
 # Encrypt-Python2
-Script Untuk Encrypt Python2
+Script Untuk Encrypt Python2 - Python3
 
 # Note
 

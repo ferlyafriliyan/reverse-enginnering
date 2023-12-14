@@ -1,0 +1,5 @@
+rich
+bs4
+requests
+mechanize
+stdiomask

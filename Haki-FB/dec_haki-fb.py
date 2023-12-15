@@ -24,13 +24,16 @@ from rich.progress import (
 )
 
 console = Console()
-M2 = "[#FF0000]"  # MERAH
-H2 = "[#00FF00]"  # HIJAU
-K2 = "[#FFFF00]"  # KUNING
-B2 = "[#00C8FF]"  # BIRU
-P2 = "[#FFFFFF]"  # PUTIH
-U2 = "[#AF00FF]"  # UNGU
-O2 = "[#FF8F00]"  # ORANGE
+Z2 = "[#000000]"  # Hitam
+M2 = "[#FF0000]"  # Merah
+H2 = "[#00FF00]"  # Hijau
+K2 = "[#FFFF00]"  # Kuning
+B2 = "[#00C8FF]"  # Biru
+U2 = "[#AF00FF]"  # Ungu
+N2 = "[#FF00FF]"  # Pink
+O2 = "[#00FFFF]"  # Biru Muda
+P2 = "[#FFFFFF]"  # Putih
+J2 = "[#FF8F00]"  # Jingga
 AA = "[#AAAAAA]"  # Abu-Abu
 sekarang = calendar.timegm(time.gmtime(time.time()))
 tampung = []
@@ -42,11 +45,11 @@ try:
     color_text = file_color.split("|")[0]
     color_panel = file_color.split("|")[1]
 except:
-    color_text = "[#00FF00]"
+    color_text = "[#FFFF00]"
     W1 = random.choice([M2, H2, K2])
     W2 = random.choice([K2, M2, K2])
     W3 = random.choice([H2, K2, M2])
-    color_panel = "#AF00FF"
+    color_panel = "#00FF00"
     color_ok = "#AF00FF"
     color_cp = "#00C8FF"
 for z in range(200):
@@ -144,37 +147,37 @@ for z in range(200):
             "Mi 12",
         ]
     )
-    whoami1 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.0; CPH1909 Build/O11019) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/th_TH;FBBV/{str(rr(182700000,182799999))};FBCR/TRUE-H;FBMF/OPPO;FBBD/OPPO;FBDV/CPH1909;FBSV/{android}.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
-    whoami2 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.1; vivo V3Max Build/LMY47V) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,160))};FBPN/com.facebook.orca;FBLC/en_US;FBBV/{str(rr(172900000,172999999))};FBCR/null;FBMF/vivo;FBBD/vivo;FBDV/vivo V3Max;FBSV/{android}.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
-    whoami3 = f"Dalvik/2.1.0 (Linux; U; Android {android}.0.1; GT-I9505 Build/LRX22C) [FBAN/Orca-Android;FBAV/{str(rr(100,299))}.0.0.{str(rr(15,30))}.{str(rr(80,150))};FBPN/com.facebook.orca;FBLC/sv_SE;FBBV/{str(rr(674600000,674699999))};FBCR/S COMVIQ;FBMF/samsung;FBBD/samsung;FBDV/GT-I9505;FBSV/{android}.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
-    whoami4 = f"Dalvik/2.1.0 (Linux; U; Android {android}; Infinix X688B Build/QP1A.{str(rr(190000,199999))}.0{str(rr(15,30))}) [FBAN/MessengerLite;FBAV/{str(rr(200,399))}.0.0.{str(rr(5,30))}.{str(rr(100,150))};FBPN/com.facebook.mlite;FBLC/en_US;FBBV/{str(rr(346800000,346899999))};FBCR/TNT;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X688B;FBSV/{android};FBCA/arm64-v8a:null;FBDM/{density}"
-    whoami5 = f"Dalvik/2.1.0 (Linux; U; Android {android}; Redmi Note 8T MIUI/V{str(rr(10,12))}.0.{str(rr(5,12))}.0.PCXEUXM) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/{str(rr(253300000,253399999))};FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/{android};FBCA/arm64-v8a:null;FBDM/{density}"
-    whoami6 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.0; MI 5X MIUI/V{str(rr(9,12))}.{str(rr(5,12))}.{str(rr(1,5))}.0.ODBCNXM) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/en_US;FBBV/{str(rr(159500000,159599999))};FBCR/Ooredoo;FBMF/Xiaomi;FBBD/xiaomi;FBDV/MI 5X;FBSV/{android}.1.0;FBCA/arm64-v8a:null;FBDM/{density}"
-    whoami7 = f"Dalvik/2.1.0 (Linux; U; Android {android}; EVR-N29 Build/HUAWEIEVR-N29) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/en_GB;FBBV/{str(rr(246800000,246899999))};FBCR/O2 - UK;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/EVR-N29;FBSV/{android};FBCA/arm64-v8a:null;FBDM/{density}"
-    whoami8 = f"Mozilla/5.0 (Windows NT 10.0.{str(rr(10500,10599))}.{str(rr(700,799))}; osmeta {str(rr(4,12))}.{str(rr(1,9))}.{str(rr(47020000,47029999))}) AppleWebKit/602.1.1 (KHTML, like Gecko) Version/{str(rr(4,12))}.0 Safari/602.1.1 osmeta/{str(rr(4,12))}.{str(rr(1,9))}.{str(rr(47020000,47029999))}) Build/{str(rr(47020000,47029999))} [FBAN/FBW;FBAV/{str(rr(70,150))}.0.0.{str(rr(15,70))}.{str(rr(15,150))};FBBV/{str(rr(47020000,47029999))};FBRV/0;FBDV/WindowsDevice;FBMD/Aspire one 1-431;FBSN/Windows;FBSV/10.0.{str(rr(10500,10599))}.{str(rr(700,799))};FBSS/1;FBCR/;FBID/desktop;FBLC/en_GB;FBOP/45]"
-    whoami9 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.1; F1 Build/LMY47V) [FBAN/FB4A;FBAV/{str(rr(40,100))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.katana;FBLC/en_GB;FBBV/{str(rr(142700000,142799999))};FBCR/Tele2 LT;FBMF/Oppo;FBBD/Oppo;FBDV/F1;FBSV/{android}.0;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
-    whoami10 = f"Dalvik/2.1.0 (Linux; U; Android {android}.0; SM-G900F Build/LRX21T) [FBAN/FB4A;FBAV/{str(rr(40,100))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.katana;FBLC/en_GB;FBBV/{str(rr(142700000,142799999))};FBCR/Tele2 LT;FBMF/samsung;FBBD/samsung;FBDV/SM-G900F;FBSV/{android}.0;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
-    whoami11 = f"Dalvik/2.1.0 (Android {android}; L-03K Build/PKQ1.{str(rr(190500,190599))}.00{str(rr(1,30))}) [FBAN/MessengerLite;FBAV/{str(rr(100,150))}.0.0.{str(rr(1,15))}.{str(rr(100,150))};FBPN/com.facebook.mlite;FBLC/en_US;FBBV/{str(rr(293500000,293599999))};FBCR/Airtel;FBMF/Facebook;Facebook/lge;FBDV/L-03K;FBSV/{android};FBCA/armeabi-v7a:armeabi;FBDM/{density}"
-    whoami12 = f"Dalvik/2.1.0 (Linux; U; Android {android}; Pixel 3 Build/QQ3A.{str(rr(200600,200699))}.00{str(rr(1,30))}) [FBAN/Orca-Android;FBAV/{str(rr(200,299))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/en_US;FBBV/{str(rr(227200000,227299999))};FBCR/Verizon;FBMF/Google;FBBD/google;FBDV/Pixel 3;FBSV/{android};FBCA/arm64-v8a:null;FBDM/{density}"
-    whoami13 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.1; E6653 Build/{str(rr(30,100))}.{str(rr(1,30))}.A.{str(rr(1,15))}.{str(rr(50,150))}) [FBAN/Orca-Android;FBAV/{str(rr(100,150))}.0.0.{str(rr(15,30))}.{str(rr(90,150))};FBPN/com.facebook.orca;FBLC/en_ZA;FBBV/{str(rr(898900000,898999999))};FBCR/null;FBMF/Sony;FBBD/Sony;FBDV/E6653;FBSV/{android}.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
-    whoami14 = f"Mozilla/5.0 (Linux; Android {android}; Pixel 6a Build/SD2A.{str(rr(220100,220199))}.0{str(rr(15,100))}.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(80,150))}.0.{str(rr(4000,4999))}.{str(rr(70,150))} Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};]"
-    whoami15 = f"Mozilla/5.0 (Linux; Android {android}; Pixel 6a Build/SD2A.{str(rr(220100,220199))}.0{str(rr(15,100))}.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(80,150))}.0.{str(rr(4000,4999))}.{str(rr(70,150))} Mobile Safari/537.36"
+    __DalvikGen__1 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.0; CPH1909 Build/O11019) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/th_TH;FBBV/{str(rr(182700000,182799999))};FBCR/TRUE-H;FBMF/OPPO;FBBD/OPPO;FBDV/CPH1909;FBSV/{android}.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
+    __DalvikGen__2 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.1; vivo V3Max Build/LMY47V) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,160))};FBPN/com.facebook.orca;FBLC/en_US;FBBV/{str(rr(172900000,172999999))};FBCR/null;FBMF/vivo;FBBD/vivo;FBDV/vivo V3Max;FBSV/{android}.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
+    __DalvikGen__3 = f"Dalvik/2.1.0 (Linux; U; Android {android}.0.1; GT-I9505 Build/LRX22C) [FBAN/Orca-Android;FBAV/{str(rr(100,299))}.0.0.{str(rr(15,30))}.{str(rr(80,150))};FBPN/com.facebook.orca;FBLC/sv_SE;FBBV/{str(rr(674600000,674699999))};FBCR/S COMVIQ;FBMF/samsung;FBBD/samsung;FBDV/GT-I9505;FBSV/{android}.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
+    __DalvikGen__4 = f"Dalvik/2.1.0 (Linux; U; Android {android}; Infinix X688B Build/QP1A.{str(rr(190000,199999))}.0{str(rr(15,30))}) [FBAN/MessengerLite;FBAV/{str(rr(200,399))}.0.0.{str(rr(5,30))}.{str(rr(100,150))};FBPN/com.facebook.mlite;FBLC/en_US;FBBV/{str(rr(346800000,346899999))};FBCR/TNT;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X688B;FBSV/{android};FBCA/arm64-v8a:null;FBDM/{density}"
+    __DalvikGen__5 = f"Dalvik/2.1.0 (Linux; U; Android {android}; Redmi Note 8T MIUI/V{str(rr(10,12))}.0.{str(rr(5,12))}.0.PCXEUXM) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/{str(rr(253300000,253399999))};FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/{android};FBCA/arm64-v8a:null;FBDM/{density}"
+    __DalvikGen__6 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.0; MI 5X MIUI/V{str(rr(9,12))}.{str(rr(5,12))}.{str(rr(1,5))}.0.ODBCNXM) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/en_US;FBBV/{str(rr(159500000,159599999))};FBCR/Ooredoo;FBMF/Xiaomi;FBBD/xiaomi;FBDV/MI 5X;FBSV/{android}.1.0;FBCA/arm64-v8a:null;FBDM/{density}"
+    __DalvikGen__7 = f"Dalvik/2.1.0 (Linux; U; Android {android}; EVR-N29 Build/HUAWEIEVR-N29) [FBAN/Orca-Android;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/en_GB;FBBV/{str(rr(246800000,246899999))};FBCR/O2 - UK;FBMF/HUAWEI;FBBD/HUAWEI;FBDV/EVR-N29;FBSV/{android};FBCA/arm64-v8a:null;FBDM/{density}"
+    __DalvikGen__8 = f"Mozilla/5.0 (Windows NT 10.0.{str(rr(10500,10599))}.{str(rr(700,799))}; osmeta {str(rr(4,12))}.{str(rr(1,9))}.{str(rr(47020000,47029999))}) AppleWebKit/602.1.1 (KHTML, like Gecko) Version/{str(rr(4,12))}.0 Safari/602.1.1 osmeta/{str(rr(4,12))}.{str(rr(1,9))}.{str(rr(47020000,47029999))}) Build/{str(rr(47020000,47029999))} [FBAN/FBW;FBAV/{str(rr(70,150))}.0.0.{str(rr(15,70))}.{str(rr(15,150))};FBBV/{str(rr(47020000,47029999))};FBRV/0;FBDV/WindowsDevice;FBMD/Aspire one 1-431;FBSN/Windows;FBSV/10.0.{str(rr(10500,10599))}.{str(rr(700,799))};FBSS/1;FBCR/;FBID/desktop;FBLC/en_GB;FBOP/45]"
+    __DalvikGen__9 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.1; F1 Build/LMY47V) [FBAN/FB4A;FBAV/{str(rr(40,100))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.katana;FBLC/en_GB;FBBV/{str(rr(142700000,142799999))};FBCR/Tele2 LT;FBMF/Oppo;FBBD/Oppo;FBDV/F1;FBSV/{android}.0;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
+    __DalvikGen__10 = f"Dalvik/2.1.0 (Linux; U; Android {android}.0; SM-G900F Build/LRX21T) [FBAN/FB4A;FBAV/{str(rr(40,100))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.katana;FBLC/en_GB;FBBV/{str(rr(142700000,142799999))};FBCR/Tele2 LT;FBMF/samsung;FBBD/samsung;FBDV/SM-G900F;FBSV/{android}.0;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
+    __DalvikGen__11 = f"Dalvik/2.1.0 (Android {android}; L-03K Build/PKQ1.{str(rr(190500,190599))}.00{str(rr(1,30))}) [FBAN/MessengerLite;FBAV/{str(rr(100,150))}.0.0.{str(rr(1,15))}.{str(rr(100,150))};FBPN/com.facebook.mlite;FBLC/en_US;FBBV/{str(rr(293500000,293599999))};FBCR/Airtel;FBMF/Facebook;Facebook/lge;FBDV/L-03K;FBSV/{android};FBCA/armeabi-v7a:armeabi;FBDM/{density}"
+    __DalvikGen__12 = f"Dalvik/2.1.0 (Linux; U; Android {android}; Pixel 3 Build/QQ3A.{str(rr(200600,200699))}.00{str(rr(1,30))}) [FBAN/Orca-Android;FBAV/{str(rr(200,299))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};FBPN/com.facebook.orca;FBLC/en_US;FBBV/{str(rr(227200000,227299999))};FBCR/Verizon;FBMF/Google;FBBD/google;FBDV/Pixel 3;FBSV/{android};FBCA/arm64-v8a:null;FBDM/{density}"
+    __DalvikGen__13 = f"Dalvik/2.1.0 (Linux; U; Android {android}.1.1; E6653 Build/{str(rr(30,100))}.{str(rr(1,30))}.A.{str(rr(1,15))}.{str(rr(50,150))}) [FBAN/Orca-Android;FBAV/{str(rr(100,150))}.0.0.{str(rr(15,30))}.{str(rr(90,150))};FBPN/com.facebook.orca;FBLC/en_ZA;FBBV/{str(rr(898900000,898999999))};FBCR/null;FBMF/Sony;FBBD/Sony;FBDV/E6653;FBSV/{android}.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density}"
+    __DalvikGen__14 = f"Mozilla/5.0 (Linux; Android {android}; Pixel 6a Build/SD2A.{str(rr(220100,220199))}.0{str(rr(15,100))}.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(80,150))}.0.{str(rr(4000,4999))}.{str(rr(70,150))} Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/{str(rr(200,399))}.0.0.{str(rr(15,30))}.{str(rr(100,150))};]"
+    __DalvikGen__15 = f"Mozilla/5.0 (Linux; Android {android}; Pixel 6a Build/SD2A.{str(rr(220100,220199))}.0{str(rr(15,100))}.A3; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(80,150))}.0.{str(rr(4000,4999))}.{str(rr(70,150))} Mobile Safari/537.36"
     ua = str(
         rc(
             [
-                whoami1,
-                whoami2,
-                whoami3,
-                whoami4,
-                whoami5,
-                whoami6,
-                whoami7,
-                whoami8,
-                whoami9,
-                whoami10,
-                whoami11,
-                whoami12,
-                whoami13,
+                __DalvikGen__1,
+                __DalvikGen__2,
+                __DalvikGen__3,
+                __DalvikGen__4,
+                __DalvikGen__5,
+                __DalvikGen__6,
+                __DalvikGen__7,
+                __DalvikGen__8,
+                __DalvikGen__9,
+                __DalvikGen__10,
+                __DalvikGen__11,
+                __DalvikGen__12,
+                __DalvikGen__13,
             ]
         )
     )
@@ -275,14 +278,6 @@ okc = "OK-" + str(tgl) + "-" + str(bln) + "-" + str(thn) + ".txt"
 cpc = "CP-" + str(tgl) + "-" + str(bln) + "-" + str(thn) + ".txt"
 
 
-def CetakBanner(ulfahsadiyah, asu):
-    Console(width=100).print(Panel(ulfahsadiyah, style="purple"), justify="center")
-
-
-def whoami(kaya, kontol):
-    Console(width=100).print(Panel(kaya, style="purple"), justify="center")
-
-
 class Logo:
     def bersihkan_layar(self):
         if "linux" in sys.platform.lower():
@@ -305,18 +300,20 @@ class Logo:
         self.bersihkan_layar()
         prints(
             Panel(
-                f"""{U2}╭─────────╮\n│ {M2}⬤  {K2}⬤  {H2}⬤ {U2}│ \n{U2}╰─────────╯{B2}
-          _____
-       __|___  |__  ____    ______  ______       __   __  ____    __  __  ___
-      |   ___|    ||    \  |   ___||   ___| ___ |  |_|  ||    \  |  |/ / |   |
-      |   ___|    ||     \ |   |__ |   ___||___||   _   ||     \ |     \ |   |
-      |___|     __||__|\__\|______||______|     |__| |__||__|\__\|__|\__\|___|
-         |_____|
+                f"""{M2}⬤  {K2}⬤  {H2}⬤ {P2}
+
+  ___  ____   __   ____  _  _ 
+ / __)(  _ \ / _\ (  _ \/ )( \ 
+( (_ \ )   //    \ ) __/) __ ( 
+ \___/(__\_)\_/\_/(__)  \_)(_/
+
+          Multi Brute Force Facebook {H2}0.1 {P2}By{H2} Denventa
 """,
                 width=87,
                 style=f"{color_panel}",
             )
         )
+
 
 class Login:
     def __init__(self):
@@ -327,39 +324,35 @@ class Login:
         Logo().logonya()
         prints(
             Panel(
-                f"{H2}\t                            Menu Login",
+                f"{B2}\t\t       Menu Login",
                 width=87,
                 style=f"{color_panel}",
             )
         )
         prints(
             Panel(
-                f"""{P2}[{color_text}01{P2}]. login menggunakan cookie facebook ( {H2}Recomended{P2} )\n[{color_text}02{P2}]. login menggunakan No dan Password ( {M2}No Recomended{P2} )""",
+                f"""{color_text}[{P2}01{color_text}].{P2} Login Cookie """,
                 width=87,
                 style=f"{color_panel}",
             )
         )
-        login = console.input(f" {U2}# {P2}pilih menu : ")
+        login = console.input(
+            f" {color_text}[{P2}•{color_text}] {P2}Pilih menu {H2}: {P2}"
+        )
         if login in ["1", "01"]:
             prints(
                 Panel(
-                    f"""{P2}silahkan masukan cookiemu disini dan pastikan autentikasi tidak aktif""",
+                    f"""{M2}[{P2}•{M2}]{P2} Jangan Gunakan Akun Pribadi {M2}!\n{M2}[{P2}•{M2}]{P2} Apabila Akun A2F On, Buka Link Dibawah\n{M2}[{P2}•{M2}]{H2} business.facebook.com/business_locations\n{M2}[{P2}•{M2}]{P2} Lalu Masukkan Kode Autentikasi""",
                     width=87,
                     style=f"{color_panel}",
                 )
             )
-            cookie = console.input(f" {U2}# {P2}masukan cookie : ")
+            cookie = console.input(
+                f" {color_text}[{P2}•{color_text}] {P2}Masukkan Cookies {H2}: {P2}"
+            )
             self.login_cookie(cookie)
         else:
-            exit(
-                prints(
-                    Panel(
-                        f"""{M2}🙏 mohon maaf fitur ini sedang dalam tahap perbaikan""",
-                        width=87,
-                        style=f"{color_panel}",
-                    )
-                )
-            )
+            exit(prints(f"""   {M2}[{P2}•{M2}]{P2} Isi yang benar {M2}!{P2}"""))
 
     def login_cookie(self, cookie):
         try:
@@ -394,13 +387,7 @@ class Login:
             open("data/cookie", "w").write(cookie)
             Menu().menu()
         except:
-            prints(
-                Panel(
-                    f"""{M2}cookie invalid, silahkan gunakan cookie lain yang masih baru atau fresh""",
-                    width=87,
-                    style=f"{color_panel}",
-                )
-            )
+            prints(f"""   {M2}[{P2}•{M2}]{P2} Cookies Invalid {M2}!{P2}\n""")
             sys.exit()
 
     def ubah_bahasa(self, cookie):
@@ -451,13 +438,7 @@ class Menu:
             else:
                 return nama
         except ConnectionError:
-            prints(
-                Panel(
-                    f"""{M2}koneksi internet kamu bermasalah, silahkan cek koneksi kamu kembali""",
-                    width=87,
-                    style=f"{color_panel}",
-                )
-            )
+            prints(f"""   {M2}[{P2}•{M2}]{P2} Tidak Ada Koneksi Internet {M2}!{P2}\n""")
             exit()
 
     def menu(self):
@@ -492,7 +473,7 @@ class Menu:
         )
         yonkou.append(
             Panel(
-                f" {B2}Nama Akun       {U2}: {AA}{nama}\n {B2}Status Pengguna {U2}: {H2}Premium\n {B2}Ip Address      {U2}: {AA}{self.ip}\n {B2}Tanggal         {U2}: {AA}{tgl}",
+                f" {B2}Nama Akun       {U2}: {AA}{nama}\n {B2}Status Pengguna {U2}: {H2}Premium\n {B2}IP Address      {U2}: {AA}{self.ip}\n {B2}Tanggal         {U2}: {AA}{tgl}",
                 width=43,
                 padding=(0, 2),
                 title=f"{B2}• {U2}• {AA}• {B2}Info-User {B2}• {U2}• {AA}•",
@@ -505,7 +486,7 @@ class Menu:
         )
         yonkou.append(
             Panel(
-                f" {B2}Author   {U2}: {AA}Wild of D\n {B2}Github  {U2} : {AA}Luffy-XD\n{B2} Facebook {U2}: {AA}dika.tw.58\n{B2} Whatsapp {U2}: {AA}+62*************",
+                f" {B2}Author   {U2}: {AA}Xavier\n {B2}Github  {U2} : {AA}ferly...\n{B2} Facebook {U2}: {AA}freya.xyz\n{B2} Whatsapp {U2}: {AA}+62*************",
                 width=43,
                 padding=(0, 2),
                 title=f"{B2}• {U2}• {AA}• {B2}Info-Author {B2}• {U2}• {AA}•",
@@ -650,7 +631,7 @@ class Menu:
             exit(
                 prints(
                     Panel(
-                        f"""{M2}🙏 mohon maaf fitur ini sedang dalam tahap perbaikan""",
+                        f"""{P2}Mohon Maaf, Fitur ini Belum Tersedia Untuk Saat Ini. Tunggu Update Selanjutnya Untuk Menggunakan Fitur-Fitur Yang Akan Datang. Terima Kasih.\n\n                {H2}- Denventa -""",
                         width=87,
                         style=f"{color_panel}",
                     )
@@ -664,7 +645,7 @@ class Menu:
             exit(
                 prints(
                     Panel(
-                        f"""{M2}🙏 mohon maaf fitur ini sedang dalam tahap perbaikan""",
+                        f"""{P2}Mohon Maaf, Fitur ini Belum Tersedia Untuk Saat Ini. Tunggu Update Selanjutnya Untuk Menggunakan Fitur-Fitur Yang Akan Datang. Terima Kasih.\n\n                {H2}- Denventa -""",
                         width=87,
                         style=f"{color_panel}",
                     )
@@ -1143,7 +1124,7 @@ class Lain:
             exit(
                 prints(
                     Panel(
-                        f"""{M2}🙏 mohon maaf fitur ini sedang dalam tahap perbaikan""",
+                        f"""{P2}Mohon Maaf, Fitur ini Belum Tersedia Untuk Saat Ini. Tunggu Update Selanjutnya Untuk Menggunakan Fitur-Fitur Yang Akan Datang. Terima Kasih.\n\n                {H2}- Denventa -""",
                         width=87,
                         style=f"{color_panel}",
                     )
@@ -1166,7 +1147,7 @@ class Lain:
             exit(
                 prints(
                     Panel(
-                        f"""{M2}🙏 mohon maaf fitur ini sedang dalam tahap perbaikan""",
+                        f"""{P2}Mohon Maaf, Fitur ini Belum Tersedia Untuk Saat Ini. Tunggu Update Selanjutnya Untuk Menggunakan Fitur-Fitur Yang Akan Datang. Terima Kasih.{H2}- Denventa -""",
                         width=87,
                         style=f"{color_panel}",
                     )
@@ -1728,4 +1709,7 @@ if __name__ == "__main__":
         os.mkdir("data")
     except:
         pass
-    Menu().menu()
+    try:
+        Menu().menu()
+    except (KeyboardInterrupt, Exception) as e:
+        exit(f"[ Error ]: {str(e).capitalize()} !")

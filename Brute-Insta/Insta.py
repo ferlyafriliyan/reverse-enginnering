@@ -2,6 +2,8 @@
 # FB: https://fb.me/khanh10a1
 # File name: [Run.py] (py - 3.11)
 
+# Delete license by Ferly Afriliyan
+
 import os,requests,json,random,re,datetime,time,rich,sys,hmac,uuid,urllib,urllib.request,hashlib
 from platform import platform
 from datetime import datetime

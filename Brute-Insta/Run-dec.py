@@ -1,5 +1,4 @@
-# Hyperion deobf by KhanhNguyen9872
-# FB: https://fb.me/khanh10a1
+
 # File name: [Run.py] (py - 3.11)
 
 from builtins import dir,exec,input,len,ord,print,dict,int,range,str,open,exit
